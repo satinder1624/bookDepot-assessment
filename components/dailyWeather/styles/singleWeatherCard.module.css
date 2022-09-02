@@ -1,0 +1,43 @@
+.contaienr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+}
+
+.weekDayContainer{
+    display: flex;
+    align-items: flex-start;
+}
+
+.weekDayContainer span:first-child{
+    width: 3.5rem;
+}
+
+.spaceContainer{
+    margin-bottom: 1.5rem;
+}
+
+.sunContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.sunContainer span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sunrise,
+.sunset{
+    color: rgba(0, 0, 0, 0.521);
+    font-weight: 500;
+    font-size: 20px;
+}
